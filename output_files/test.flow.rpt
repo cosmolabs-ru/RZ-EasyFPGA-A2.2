@@ -1,0 +1,133 @@
+Flow report for test
+Tue Nov 30 17:55:02 2021
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Tue Nov 30 17:54:55 2021           ;
+; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Standard Edition ;
+; Revision Name                      ; test                                            ;
+; Top-level Entity Name              ; project                                         ;
+; Family                             ; Cyclone IV E                                    ;
+; Device                             ; EP4CE6E22C8                                     ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 168 / 6,272 ( 3 % )                             ;
+;     Total combinational functions  ; 163 / 6,272 ( 3 % )                             ;
+;     Dedicated logic registers      ; 116 / 6,272 ( 2 % )                             ;
+; Total registers                    ; 116                                             ;
+; Total pins                         ; 18 / 92 ( 20 % )                                ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 276,480 ( 0 % )                             ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                                  ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                   ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/30/2021 17:54:04 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; test                ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                  ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id           ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------------+
+; COMPILER_SIGNATURE_ID               ; 1096562069996.163828404300904          ; --            ; --          ; --                   ;
+; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL     ; Blast FPGA                             ; <None>        ; test.v      ; --                   ;
+; EDA_INPUT_DATA_FORMAT               ; Vqm                                    ; --            ; test.v      ; eda_design_synthesis ;
+; EDA_INPUT_GND_NAME                  ; Gnd                                    ; --            ; test.v      ; eda_design_synthesis ;
+; EDA_INPUT_VCC_NAME                  ; Vdd                                    ; --            ; test.v      ; eda_design_synthesis ;
+; EDA_LMF_FILE                        ; blast.lmf                              ; --            ; test.v      ; eda_design_synthesis ;
+; EDA_RUN_TOOL_AUTOMATICALLY          ; Off                                    ; --            ; test.v      ; eda_design_synthesis ;
+; EDA_SHOW_LMF_MAPPING_MESSAGES       ; Off                                    ; --            ; test.v      ; eda_design_synthesis ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --                   ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --                   ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --                   ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; project     ; Top                  ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; project     ; Top                  ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; project     ; Top                  ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --                   ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                   ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --                   ;
+; TOP_LEVEL_ENTITY                    ; project                                ; test          ; --          ; --                   ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:34     ; 1.0                     ; 4776 MB             ; 00:01:03                           ;
+; Fitter               ; 00:00:12     ; 1.0                     ; 5511 MB             ; 00:00:13                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4670 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 4753 MB             ; 00:00:05                           ;
+; Total                ; 00:00:55     ; --                      ; --                  ; 00:01:23                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-7QKJ1PJJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LAPTOP-7QKJ1PJJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LAPTOP-7QKJ1PJJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LAPTOP-7QKJ1PJJ  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off test -c test
+quartus_fit --read_settings_files=off --write_settings_files=off test -c test
+quartus_asm --read_settings_files=off --write_settings_files=off test -c test
+quartus_sta test -c test
+
+
+

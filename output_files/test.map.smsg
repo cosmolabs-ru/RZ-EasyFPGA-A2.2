@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at easyFPGA.v(28): always construct contains both blocking and non-blocking assignments File: C:/wd/FPGA/easyFPGA.v Line: 28
+Warning (10268): Verilog HDL information at easyFPGA.v(32): always construct contains both blocking and non-blocking assignments File: C:/wd/FPGA/easyFPGA.v Line: 32
